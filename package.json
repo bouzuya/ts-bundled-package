@@ -32,6 +32,7 @@
     "build": "npm run tsc && npm run babel && npm run dts",
     "clean": "rm -rf ./lib index.d.ts",
     "dts": "mv ./tmp/index.d.ts .",
+    "prepublish": "npm run clean && npm run build",
     "tsc": "tsc --declaration --target es6 --outDir tmp index.ts"
   }
 }
