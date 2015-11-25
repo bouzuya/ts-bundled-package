@@ -1,0 +1,22 @@
+{
+  "name": "@bouzuya/ts-bundled-package",
+  "description": ".d.ts bundled package example.",
+  "version": "0.0.0",
+  "author": {
+    "name": "bouzuya",
+    "email": "m@bouzuya.net",
+    "url": "http://bouzuya.net"
+  },
+  "devDependencies": {
+    "babel": "^5.8.34",
+    "typescript": "^1.6.2"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "scripts": {
+    "babel": "babel tmp --out-dir lib",
+    "build": "npm run tsc && npm run babel",
+    "tsc": "tsc --target es6 --outDir tmp index.ts"
+  }
+}
