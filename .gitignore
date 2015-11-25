@@ -1,2 +1,4 @@
-tmp/
+index.d.ts
+lib/
 node_modules/
+tmp/
