@@ -1,5 +1,5 @@
 {
-  "name": "@bouzuya/ts-bundled-package",
+  "name": "bouzuya-ts-bundled-package",
   "description": ".d.ts bundled package example.",
   "version": "0.0.0",
   "author": {
